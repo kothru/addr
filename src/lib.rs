@@ -1,6 +1,9 @@
 #[cfg(test)]
 mod tests {
-    use crate::Rectangle;
+    // use outer module
+    use super::*;
+    // autoinsert this code
+    // use crate::Rectangle;
 
     #[test]
     fn it_works() {
