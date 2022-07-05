@@ -12,7 +12,9 @@ mod tests {
     }
 
     #[test]
+    #[should_panic]
     fn another() {
+        // BACKTRACE puts panic trace, but test passed
         panic!("panic at disco");
     }
 
